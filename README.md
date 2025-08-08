@@ -37,17 +37,11 @@ The dataset was developed by the Automation Systems & Modeling Laboratory at the
 
 ```
 ├── data/
-│   ├── train/
-│   ├── test/
-│   └── ...
+│   ├── Train/
+│   ├── new_test/
+│   └── sample_submissions.csv
 ├── notebooks/
-│   └── exploration and modeling code
-├── src/
-│   ├── data_preprocessing.py
-│   ├── model_architecture.py
-│   └── train.py
-├── models/
-│   └── saved_model.pth
+│   └── TorchKeras
 ├── README.md
 └── requirements.txt
 ```
@@ -57,8 +51,8 @@ The dataset was developed by the Automation Systems & Modeling Laboratory at the
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/mashtots-handwriting-classifier.git
-cd mashtots-handwriting-classifier
+git clone (https://github.com/erantonyan24/Armenian-Letters-Classification.git)
+cd Armenian-Letters-Classification
 pip install -r requirements.txt
 ```
 
@@ -85,16 +79,6 @@ pip install -r requirements.txt
 
 ---
 
-## 📈 Results & Insights
-
-*(Update with your actual metrics, confusion matrix, and leaderboard rank.)*
-
-Example:
-✅ **ResNet50** – 97.8% accuracy
-✅ **VGG16** – 96.5% accuracy
-
----
-
 ## 🔮 Future Enhancements
 
 * 🖌️ More diverse data augmentations (brightness, warping, synthetic data).
@@ -110,4 +94,3 @@ Example:
 
 ---
 
-If you want, I can also make you a **GitHub-friendly cover image** with Armenian letters and a CNN illustration so your repo looks more eye-catching. Would you like me to prepare that?
