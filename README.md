@@ -58,27 +58,6 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
-
-1. 📥 **Download the dataset** from Kaggle and place it under `data/`.
-2. 🔄 **Preprocess the data**:
-
-   ```bash
-   python src/data_preprocessing.py --data-dir data/
-   ```
-3. 🏋️ **Train the model**:
-
-   ```bash
-   python src/train.py --architecture resnet --epochs 50
-   ```
-4. 📊 **Evaluate performance**:
-
-   ```bash
-   python src/train.py --evaluate --model-path models/resnet_best.pth
-   ```
-
----
-
 ## 🔮 Future Enhancements
 
 * 🖌️ More diverse data augmentations (brightness, warping, synthetic data).
